@@ -8,3 +8,4 @@ CMakeCache.txt
 *.o
 Makefile
 compile_commands.json
+*.a

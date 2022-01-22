@@ -1,4 +1,3 @@
-// func.cxx
 module;
 
 #include <iostream>

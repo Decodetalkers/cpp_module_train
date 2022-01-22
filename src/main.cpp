@@ -1,9 +1,10 @@
 // main.cpp
+#include "videos/video.h"
 #include <exception>
 #include <iostream>
+#include <libprint.h>
 import mod;
 import hellos;
-
 int main() {
   MyNamespace::func();
   HelloWorld::temp();
@@ -19,4 +20,6 @@ int main() {
   } catch (...) {
     std::cerr << "Unknown exception.\n";
   }
+  LibPrint::Println();
+  VIDEO::VideoType();
 }
